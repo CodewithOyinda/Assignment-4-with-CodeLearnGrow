@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Registration Form</h1>
+ <p>Please fill out this form with the required information</p>
+ <section>
+  <form action="/action_page.php"><fieldset>
+   <p><label for="fname">Enter your First Name:</label>
+   <input type="text" id="fname"></p>
+   <p><label for="Lname">Enter your Last Name:</label>
+   <input type="text" id="Lname"></p>
+   <p><label for="Email">Enter your Email:</label>
+   <input type="text" id="Email"></p>
+   <label for="Password">Creat a New Password</label>
+   <input type="password" id="password">
+ </section>
+ <section>  
+  <form action="/action_page.php"><fieldset>
+    <p><input type="radio" id="Account number">
+    <label for="PAccount">Personal Account</label></p>
+    <p><input type="radio" id="Account number">
+    <label for="BAcoount">Business Account</label></p>
+    <input type="checkbox" id="terms and conditions">
+    <label for="t&c"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+ </section>
+ <section>
+    <form action="/action_page.php"><fieldset>
+        <label for="profile picture">Upload a profile picture:</label>
+        <input type="file" id="profile picture">
+        <p><label for="age">Input your age (years):</label>
+        <input type="text" id="age" size="5"></p>
+        <p><label for="Question">How did you hear about us?</label>
+        <select id="select" name="select">
+            <option value="(select one)">(select one)</option>
+            <option value="freeCodeCamp News">freeCodeCamp News</option>
+            <option value="freeCodeCamp YouTubeChannel">freeCodeCamp YouTubeChannel</option>
+            <option value="freeCodeCamp Forum">freeCodeCamp Forum</option>
+            <option value="Other">Other</option>
+        </select></p>
+        <p><label for="bio">Provide a bio:</label>
+        <textarea name="message" rows="4" cols="30" placeholder="I like coding on the beach..."></textarea></p>
+ </section>
+</body>
+</html>
